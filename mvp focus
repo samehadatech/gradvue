@@ -1,0 +1,86 @@
+Gradvue MVP: Core Functions, Features & Focus
+📌 Core Focus
+Gradvue aims to streamline school management, focusing on:
+
+Student administration (enrollment, class management).
+
+Tuition tracking (payments, outstanding balances, notifications).
+
+Teacher & subject assignments (clear role-based structure).
+
+Parent communication (tuition alerts, academic updates).
+
+Simple & efficient UI (for web & mobile).
+
+🛠️ Core Functions & Features
+1️⃣ User Management & Role-Based Access
+Roles: Principal (or appointed proxy), Teachers, Parents, Students.
+
+Principals/proxies can:
+
+Manage students, classes, and subjects.
+
+Assign teachers and define tuition structures.
+
+Track tuition payments and outstanding balances.
+
+Teachers can:
+
+Manage their assigned subjects.
+
+Input grades for students.
+
+Parents can:
+
+View tuition status, payments, and outstanding fees.
+
+Receive notifications about their child’s academic performance.
+
+Students can:
+
+View their grades and school-related updates.
+
+2️⃣ Student & Class Management
+Add, edit, remove students and assign them to classes.
+
+Lay out class structures (which students belong to which class).
+
+Assign teachers to specific subjects per class.
+
+3️⃣ Tuition & Payment Tracking
+Input tuition breakdown for each student.
+
+Track payment status (Paid, Partial, Outstanding).
+
+Use urgency-based color coding:
+
+✅ Green: Paid
+
+⚠️ Yellow: Partial Payment
+
+❌ Red: Outstanding
+
+Send automated notifications to parents about unpaid fees.
+
+4️⃣ Academic Tracking & Reporting
+Assign teachers to subjects and classes.
+
+Teachers input student grades.
+
+Generate basic report cards for students.
+
+5️⃣ Communication & Notifications
+In-app notifications and alerts for payments, grades, and announcements.
+
+Automated fee reminders for parents.
+
+Direct messaging (optional for MVP, can be added later).
+
+🎯 MVP Development Focus
+Fast Deployment: Start with core features, expand later.
+
+Scalability: Simple but structured database & APIs.
+
+Security: Role-based access control using JWT authentication.
+
+Web & Mobile Accessibility: React TypeScript for web, Flutter for mobile.
