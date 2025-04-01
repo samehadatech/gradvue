@@ -1,1 +1,4 @@
 Project start date - 1st April 2025
+
+// access .env from vite
+const apiUrl = import.meta.env.VITE_API_URL;
