@@ -25,3 +25,5 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+gradvue-backend/node_modules/
